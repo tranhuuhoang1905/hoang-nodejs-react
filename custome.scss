@@ -1,0 +1,32 @@
+body {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.banner {
+    height: 865px;
+    background-image: url("./banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px;
+
+    .about-sign-in {
+        height: 80px;
+        width: 100%;
+
+        ul.head-abount-sign-in {
+            float: right;
+
+            li {
+                display: inline-block;
+
+                .about,
+                .sign {
+                    text-transform: uppercase;
+                }
+            }
+
+        }
+    }
+}
